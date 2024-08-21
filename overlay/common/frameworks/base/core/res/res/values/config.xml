@@ -139,7 +139,7 @@
         <item>app_cloning/enable_app_cloning_building_blocks=true</item>
 
 	<!-- LMKD Thrashing Limit Critical -->
-	<item>lmkd_native/thrashing_limit_critical=350</item>
+	<item>lmkd_native/thrashing_limit_critical=300</item>
 
         <!-- Enable new location indicators -->
         <item>privacy/location_access_check_enabled=true</item>
