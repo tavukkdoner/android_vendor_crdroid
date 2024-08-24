@@ -61,9 +61,6 @@
         <item>com.android.networkstack.tethering</item>
     </string-array>
 
-    <!-- Enable lockscreen rotation by default -->
-    <bool name="config_enableLockScreenRotation">true</bool>
-
     <!-- Set this to true to enable the platform's auto-power-save modes like doze and
          app standby.  These are not enabled by default because they require a standard
          cloud-to-device messaging service for apps to interact correctly with the modes
@@ -514,13 +511,6 @@
 
     <!-- Component name that should be granted Notification Assistant access -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
-
-    <!-- The component name, flattened to a string, for the default autofill service
-         to  enabled for an user. This service must be trusted, as it can be activated
-         without explicit consent of the user. If no autofill service with the
-          specified name exists on the device, autofill will be disabled by default.
-    -->
-    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
 
     <!-- The component name, flattened to a string, for the system's credential manager
       hybrid service. This service allows credential retrieval and storage from, and to
