@@ -125,6 +125,9 @@
     <string-array name="global_device_configs_override">
         <!-- Cache apps freezer -->
         <item>activity_manager_native_boot/use_freezer=true</item>
+
+        <!-- Enable Re-rank oom adjust scores -->
+        <item>activity_manager/use_oom_re_ranking=true</item>
         
         <!-- Enable app cloning  -->
         <item>app_cloning/cloned_apps_enabled=true</item>
