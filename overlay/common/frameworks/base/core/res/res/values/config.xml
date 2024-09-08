@@ -128,6 +128,9 @@
 
         <!-- Enable Re-rank oom adjust scores -->
         <item>activity_manager/use_oom_re_ranking=true</item>
+
+        <!-- Enable proactive killing cached apps -->
+        <item>activity_manager/proactive_kills_enabled=true</item>
         
         <!-- Enable app cloning  -->
         <item>app_cloning/cloned_apps_enabled=true</item>
