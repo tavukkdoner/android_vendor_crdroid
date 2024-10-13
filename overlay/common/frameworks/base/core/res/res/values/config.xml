@@ -123,22 +123,23 @@
 
     <!-- Define device configs on boot -->
     <string-array name="global_device_configs_override">
-	<!-- Cache apps freezer -->
-	<item>activity_manager_native_boot/use_freezer=true</item>
+        <!-- Cache apps freezer -->
+        <item>activity_manager_native_boot/use_freezer=true</item>
 
-	<!-- Enable Re-rank oom adjust scores -->
-	<item>activity_manager/use_oom_re_ranking=true</item>
+        <!-- Enable Re-rank oom adjust scores -->
+        <item>activity_manager/use_oom_re_ranking=true</item>
 
-	<!-- Enable proactive killing cached apps -->
-	<item>activity_manager/proactive_kills_enabled=true</item>
-	
+        <!-- Enable proactive killing cached apps -->
+        <item>activity_manager/proactive_kills_enabled=true</item>
+        
         <!-- Enable app cloning  -->
         <item>app_cloning/cloned_apps_enabled=true</item>
         <item>app_cloning/delete_all_app_clones_enabled=true</item>
         <item>app_cloning/enable_app_cloning_building_blocks=true</item>
 
-	<!-- LMKD Thrashing Limit Critical -->
-	<item>lmkd_native/thrashing_limit_critical=300</item>
+        <!-- LMKD Thrashing Limit Critical -->
+        <item>lmkd_native/thrashing_limit_critical=300</item>
+
 
         <!-- Enable new location indicators -->
         <item>privacy/location_access_check_enabled=true</item>
@@ -167,14 +168,13 @@
 
         <!-- Enable smart actions in the clipboard overlay -->
         <item>systemui/clipboard_overlay_show_actions=true</item>
-		
+
         <!-- USAP Pool -->
         <item>runtime_native/usap_pool_enabled=true</item>
         <item>runtime_native/usap_pool_refill_delay_ms=3000</item>
         <item>runtime_native/usap_pool_size_max=10</item>
         <item>runtime_native/usap_pool_size_min=1</item>
         <item>runtime_native/usap_refill_threshold=5</item>
-	
 
         <!--
             Device Personalization Services (AiAi)
