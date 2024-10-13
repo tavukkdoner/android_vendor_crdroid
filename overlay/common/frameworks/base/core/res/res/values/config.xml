@@ -139,8 +139,7 @@
 
         <!-- LMKD Thrashing Limit Critical -->
         <item>lmkd_native/thrashing_limit_critical=300</item>
-
-
+		
         <!-- Enable new location indicators -->
         <item>privacy/location_access_check_enabled=true</item>
         <item>privacy/location_accuracy_enabled=true</item>
