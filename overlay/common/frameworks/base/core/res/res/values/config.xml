@@ -131,6 +131,10 @@
 		
         <!-- Enable the batching of OOM adjuster calls to LMKD -->
         <item>activity_manager_native_boot/enable_batching_oom_adj=true</item>
+		
+        <!-- Move app to restricted standby level automatically when system detects it's abusive. -->
+        <item>activity_manager/bg_auto_restrict_abusive_apps=true</item>
+        <item>activity_manager/bg_current_drain_auto_restrict_abusive_apps_enabled=true</item>
 
         <!-- Enable Re-rank oom adjust scores -->
         <item>activity_manager/use_oom_re_ranking=true</item>
