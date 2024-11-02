@@ -911,5 +911,6 @@ function fixup_common_out_dir() {
 export USE_THINLTO_CACHE=true
 
 # Override host metadata to make builds more reproducible and avoid leaking info
+
 # export BUILD_USERNAME=nobody
 # export BUILD_HOSTNAME=android-build
