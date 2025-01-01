@@ -30,10 +30,6 @@ PRODUCT_PACKAGES += \
     lineage_charger_animation_vendor
 endif
 
-# Customizations
-PRODUCT_PACKAGES += \
-    NavigationBarMode2ButtonOverlay
-
 # Legal
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.crdroidlegal.url=https://crdroid.net/legal.php
